@@ -1,2 +1,2 @@
 
-### nalyse exploratoir, descriptive et inférentielle de données
+### Analyse exploratoir, descriptive et inférentielle de données
