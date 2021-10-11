@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h1>API Documentation</h1>
+<ul>
+  <li>
+  	root
+  	<ul>
+  		<li>Method : <h4>GET/</h4></li>
+  		<li>Inputs : <h4>N/A</h4></li>
+  		<li>OutPut : <h4>Welcome page to the site</h4></li>
+  	</ul>
+  </li>
+  <li>
+  	Predict
+  	  	<ul>
+  		<li>Method : <h4>GET/POST : {source}/predict </h4></li>
+  		<li>Inputs : <h4>Json or fill predict form</h4></li>
+  		<li>OutPut : <h4>JSON with wine class</h4></li>
+  		<li>Example : <h5>JSON Intuput = json={"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}</h5>
+  			    <h5>JSON Output = {'predict': [6]}</h5>
+  		</li>
+  	</ul>
+  </li>
+  <li>
+    	docs
+  	<ul>
+  		<li>Method : <h4>GET/</h4></li>
+  		<li>Inputs : <h4>N/A</h4></li>
+  		<li>OutPut : <h4>Documentation page</h4></li>
+  	</ul>
+  </li>
+</ul>
+
+{% endblock %}

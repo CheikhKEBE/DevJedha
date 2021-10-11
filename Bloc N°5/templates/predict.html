@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+{% block title %}Predict{% endblock %}
+
+{% block content %}
+<h1>Enter your wine characteristics</h1>
+<form action="predict" method="post">
+	<label for="fixed_acidity">Fixed acidity : </label><input type="number" step=any name="fixed_acidity" /></p>
+	<label for="volatile_acidity">Volatile acidity: </label><input type="number" step=any name="volatile_acidity" /></p>
+	<label for="citric_acid">Citric acid: </label><input type="number" step=any name="citric_acid" /></p>
+	<label for="residual_sugar">Residual sugar: </label><input type="number" step=any name="residual_sugar" /></p>
+	<label for="chlorides">Chlorides: </label><input type="number" step=any name="chlorides" /></p>
+	<label for="f_sulfur_dioxide">Free sulfur dioxide: </label><input type="number" step=any  name="f_sulfur_dioxide" /></p>
+	<label for="t_sulfur_dioxide">Total sulfur dioxide: </label><input type="number" step=any name="t_sulfur_dioxide" /></p>
+	<label for="density">Density: </label><input type="number" step=any name="density" /></p>
+	<label for="pH">PH: </label><input type="number" step=any name="pH" /></p>
+	<label for="sulphates">Sulphates: </label><input type="number" step=any name="sulphates" /></p>
+	<label for="alcohol">Alcohol: </label><input type="number" step=any name="alcohol" /></p>
+	<p><input type="submit" value="Predict"/></p>
+</form>
+{% endblock %}
+
+										
