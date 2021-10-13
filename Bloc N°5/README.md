@@ -119,4 +119,4 @@ print(response.json())
 ## Pour lancer en local : 
 - executer python winequality.py
 - faire http://127.0.0.1:5000/ pour aller à la page d'accueil puis faire des prédictions avec cliquant sur prediction ou voir la document en cliquant sur documentation
--- vous pouvez aussi lancer  python test_winequality.py pour faire des tests API
+- vous pouvez aussi lancer  python test_winequality.py pour faire des tests API
