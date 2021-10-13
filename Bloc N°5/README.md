@@ -115,8 +115,8 @@ response = requests.post("https://your-url/predict", json={
 print(response.json())
 ```
 # Installation et Run
-- Installer les librairies nécessaires (voir requirements.txt)
-- Pour lancer en local : 
--- executer python winequality.py
--- faire http://127.0.0.1:5000/ pour aller à la page d'accueil puis faire des prédictions avec cliquant sur prediction ou voir la document en cliquant sur documentation
--- vous pouvez aussi lancer  pour faire des tests API
+## Installer les librairies nécessaires (voir requirements.txt)
+## Pour lancer en local : 
+- executer python winequality.py
+- faire http://127.0.0.1:5000/ pour aller à la page d'accueil puis faire des prédictions avec cliquant sur prediction ou voir la document en cliquant sur documentation
+-- vous pouvez aussi lancer  python test_winequality.py pour faire des tests API
