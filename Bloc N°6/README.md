@@ -1,4 +1,4 @@
 
 #### Direction de projets de gestion de données
-L'objectif de ce projet est de mener un projet data science de A à Z.
+L'objectif est de mener un projet data science de A à Z.
 Nous avons choisit de développer une application d'estimation des prix d'une nuité AIrBnb à Barcelone
