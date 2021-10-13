@@ -115,5 +115,5 @@ response = requests.post("https://your-url/predict", json={
 print(response.json())
 ```
 # Installation et Run
-- Avoir un environnement d'exécution Spark
-- Pour la partie RedShift compléter les parametres RedShift par les vôtres : 
+- Installer les librairies nécessaires (voir Requierements.txt
+- Pour lancer en local : 
